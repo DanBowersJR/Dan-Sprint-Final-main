@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <nav className="nav">
-      <div className="navHeader">
+      <div className="navHeader" onClick={() => navigate("/")}>
         <h2>Dan's Fitness Gear</h2>
       </div>
 
